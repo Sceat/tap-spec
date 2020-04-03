@@ -1,4 +1,4 @@
-# tap-spec [![NPM version](https://img.shields.io/npm/v/tap-spec.svg?style=flat-square)](https://www.npmjs.com/package/tap-spec) [![NPM download count](https://img.shields.io/npm/dm/tap-spec.svg?style=flat-square)](https://www.npmjs.com/package/tap-spec)
+# tap-spec (Emoji patch) [![NPM version](https://img.shields.io/npm/v/tap-spec.svg?style=flat-square)](https://www.npmjs.com/package/tap-spec) [![NPM download count](https://img.shields.io/npm/dm/tap-spec.svg?style=flat-square)](https://www.npmjs.com/package/tap-spec)
 
 Formatted TAP output like Mocha's spec reporter (Emoji patched version)
 
