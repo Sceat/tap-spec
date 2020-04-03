@@ -9,6 +9,7 @@ Formatted TAP output like Mocha's spec reporter
 ## Patch Motivation
 
 Using a terminal with emoji support, the tests output become pretty ugly. This package use different emojis instead.
+You may still use the original lib for your CI in case it doesn't support emojis (because it support char fallbacks), but on your local computer this version allow for a better output
 
 ### Original
 
