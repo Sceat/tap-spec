@@ -1,4 +1,10 @@
-# tap-spec (Emoji patch) [![NPM version](https://img.shields.io/npm/v/tap-spec.svg?style=flat-square)](https://www.npmjs.com/package/tap-spec) [![NPM download count](https://img.shields.io/npm/dm/tap-spec.svg?style=flat-square)](https://www.npmjs.com/package/tap-spec)
+## Motivation
+
+Using a terminal with emoji support, the tests output become pretty ugly. This package use different emojis instead.
+
+> Forked from [tap-spec](https://github.com/scottcorgan/tap-spec)
+
+# tap-spec (Emoji patch) [![NPM version](https://img.shields.io/npm/v/tap-spec-emoji.svg?style=flat-square)](https://www.npmjs.com/package/tap-spec-emoji) [![NPM download count](https://img.shields.io/npm/dm/tap-spec-emoji.svg?style=flat-square)](https://www.npmjs.com/package/tap-spec-emoji)
 
 Formatted TAP output like Mocha's spec reporter
 
