@@ -39,10 +39,7 @@ module.exports = function (spec) {
       output.push(pad('  ' + name + '\n'));
     }
     else {
-      var glyph = format.green(symbols.tick);
-      var name = format.dim(assertion.name);
-
-      output.push(pad('  ' + glyph + ' ' + name + '\n'));
+      output.push(pad(`  ✅ ${format.dim(assertion.name)}\n`));
     }
 
   });
@@ -50,8 +47,7 @@ module.exports = function (spec) {
   // Failing assertions
   parser.on('fail', function (assertion) {
 
-    var glyph = symbols.cross;
-    var title =  glyph + ' ' + assertion.name;
+    var title =  `⛔️ ${assertion.name}`
     var raw = format.cyan(prettifyRawError(assertion.error.raw));
     var divider = _.fill(
       new Array((title).length + 1),
@@ -123,7 +119,7 @@ module.exports = function (spec) {
 
     if (results.tests.length === 0 &&
         results.asserts.length === 0) {
-      return pad(format.red(symbols.cross + ' No tests found'));
+      return pad(format.red(`⛔️ No tests found`));
     }
 
     return _.filter([
@@ -151,7 +147,7 @@ module.exports = function (spec) {
       // Write failed assertion
       _.each(assertions, function (assertion) {
 
-        out += pad('    ' + format.red(symbols.cross) + ' ' + format.red(assertion.name)) + '\n';
+        out += pad('    ⛔️ ' + format.red(assertion.name)) + '\n';
       });
 
       out += '\n';

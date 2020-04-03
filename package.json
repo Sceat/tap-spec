@@ -1,14 +1,14 @@
 {
-  "name": "tap-spec",
+  "name": "tap-spec-emoji",
   "version": "5.0.0",
-  "description": "Formatted TAP output like Mocha's spec reporter",
+  "description": "Formatted TAP output like Mocha's spec reporter (Emoji patch)",
   "main": "index.js",
   "scripts": {
     "test": "echo 'Tests are out of date. Not running until fixed.'"
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/scottcorgan/tap-spec.git"
+    "url": "https://github.com/Sceat/tap-spec-emoji.git"
   },
   "keywords": [
     "tape",
@@ -20,7 +20,7 @@
   "author": "Scott Corgan",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/scottcorgan/tap-spec/issues"
+    "url": "https://github.com/Sceat/tap-spec-emoji/issues"
   },
   "dependencies": {
     "chalk": "^1.0.0",
