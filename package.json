@@ -1,6 +1,6 @@
 {
   "name": "tap-spec-emoji",
-  "version": "6.1.0",
+  "version": "6.1.1",
   "description": "Formatted TAP output like Mocha's spec reporter (Emoji patch)",
   "main": "index.js",
   "scripts": {
