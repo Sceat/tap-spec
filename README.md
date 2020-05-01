@@ -4,20 +4,14 @@
 
 Formatted TAP output like Mocha's spec reporter
 
-![iterm - 2 bash - may 29 2015 at 10 17 am screen shot](https://cloud.githubusercontent.com/assets/974723/7888261/03366236-05ec-11e5-9f94-d9c2707526b7.png)
+<p align=center>
+  <img width=600 src="https://i.imgur.com/CDiF3bE.png" />
+</p>
 
 ## Patch Motivation
 
 Using a terminal with emoji support, the tests output become pretty ugly. This package use different emojis instead.
 You may still use the original lib for your CI in case it doesn't support emojis (because it support char fallbacks), but on your local computer this version allow for a better output
-
-### Original
-
-![](https://i.imgur.com/yNCoue7.png)
-
-### Patched
-
-![](https://i.imgur.com/CDiF3bE.png)
 
 ## Install
 
