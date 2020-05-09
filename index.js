@@ -1,6 +1,6 @@
 var fs = require('fs');
 
-var tapOut = require('tap-out');
+var tapOut = require('@chocpanda/tap-out');
 var through = require('through2');
 var duplexer = require('duplexer');
 var format = require('chalk');
